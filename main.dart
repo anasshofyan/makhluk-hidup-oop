@@ -12,7 +12,6 @@ void main() {
   print(makhlukHidup.getCaraBerkembangBiak());
   print(makhlukHidup.getCaraRespirasi());
 
-  // Hewan
   var hewan = new Hewan('Sapi', true);
   hewan.setCaraBergerak('Berjalan');
   hewan.setIsVertebrata(false);
@@ -31,7 +30,6 @@ void main() {
   print(anjing.getKemampuanUtama());
   print(anjing.getIsPeliharaan());
 
-  // Tumbuhan
   var tumbuhan = new Tumbuhan('Sintesis', false);
   tumbuhan.setCaraMetabolisme('Menyusui');
   tumbuhan.setIsKambium(false);
